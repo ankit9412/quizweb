@@ -83,6 +83,9 @@ The login screen shows server status:
 3. Code auto-fills in confirmation field
 4. Login immediately!
 
+5. <img width="1920" height="1080" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/524c9c14-1f0f-42d1-89d4-97299b9a4eed" />
+
+
 ## 🔧 **Troubleshooting**
 
 ### **Email Not Sending?**
@@ -101,6 +104,9 @@ The login screen shows server status:
 - Make sure text files are in same folder
 - Check browser console for errors
 - Fallback questions will load automatically
+
+- ![Uploading Screenshot (110).png…]()
+
 
 ## 📁 **File Structure**
 
@@ -136,5 +142,6 @@ quiz-master/
 - **Testing**: Use `test-email.html` for diagnostics
 
 ---
+
 
 **Ready to quiz? Start the server and open index.html!** 🎉
