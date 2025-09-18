@@ -1,0 +1,52 @@
+What is the derivative of x²?|x|2x|x²|2|2x
+Who developed the theory of relativity?|Newton|Einstein|Galileo|Tesla|Einstein
+What is the powerhouse of the cell?|Nucleus|Ribosome|Mitochondria|Endoplasmic Reticulum|Mitochondria
+In which year was the Berlin Wall torn down?|1987|1988|1989|1990|1989
+What is the chemical formula for sulfuric acid?|HCl|H2SO4|HNO3|H3PO4|H2SO4
+What is the integral of 2x?|x²|x² + C|2x²|2x² + C|x² + C
+Which philosopher wrote 'The Republic'?|Aristotle|Socrates|Plato|Kant|Plato
+What is the half-life of Carbon-14?|5,730 years|6,730 years|4,730 years|7,730 years|5,730 years
+In quantum mechanics, what does the Schrödinger equation describe?|Energy|Wave function|Momentum|Position|Wave function
+What is the most abundant element in the universe?|Helium|Oxygen|Carbon|Hydrogen|Hydrogen
+Who composed 'The Four Seasons'?|Bach|Mozart|Vivaldi|Beethoven|Vivaldi
+What is the speed of sound in air at 20°C?|343 m/s|340 m/s|350 m/s|360 m/s|343 m/s
+Which programming language was developed by Bjarne Stroustrup?|Java|Python|C++|JavaScript|C++
+What is the Avogadro constant?|6.022 × 10²³|6.022 × 10²²|6.022 × 10²⁴|6.022 × 10²¹|6.022 × 10²³
+In which layer of the atmosphere do most weather phenomena occur?|Stratosphere|Troposphere|Mesosphere|Thermosphere|Troposphere
+What is the molecular formula for glucose?|C6H12O6|C12H22O11|C6H6|C2H6O|C6H12O6
+Who proved that DNA has a double helix structure?|Watson and Crick|Mendel|Darwin|Pasteur|Watson and Crick
+What is the uncertainty principle in quantum mechanics?|Heisenberg|Schrödinger|Planck|Bohr|Heisenberg
+Which element has the highest melting point?|Tungsten|Carbon|Rhenium|Osmium|Tungsten
+What is the equation for Einstein's mass-energy equivalence?|E = mc|E = mc²|E = m²c|E = 2mc|E = mc²
+In computer science, what does 'NP' stand for?|Not Polynomial|Non-deterministic Polynomial|New Programming|Network Protocol|Non-deterministic Polynomial
+What is the pH of pure water at 25°C?|6|7|8|9|7
+Who developed the periodic table?|Lavoisier|Mendeleev|Dalton|Bohr|Mendeleev
+What is the limit of (sin x)/x as x approaches 0?|0|1|∞|undefined|1
+Which particle was discovered by J.J. Thomson?|Proton|Neutron|Electron|Photon|Electron
+What is the second law of thermodynamics about?|Energy conservation|Entropy|Temperature|Pressure|Entropy
+In genetics, what does 'DNA' stand for?|Deoxyribonucleic Acid|Dinitrogen Acid|Dynamic Nuclear Acid|Dextrose Nucleic Acid|Deoxyribonucleic Acid
+What is the Planck constant approximately?|6.626 × 10⁻³⁴ J·s|6.626 × 10⁻³³ J·s|6.626 × 10⁻³⁵ J·s|6.626 × 10⁻³² J·s|6.626 × 10⁻³⁴ J·s
+Which mathematician proved Fermat's Last Theorem?|Gauss|Euler|Wiles|Riemann|Wiles
+What is the strongest force in nature?|Electromagnetic|Weak nuclear|Strong nuclear|Gravitational|Strong nuclear
+In organic chemistry, what is a benzene ring?|C6H6|C6H12|C5H5|C7H7|C6H6
+What is the critical angle for total internal reflection in water?|42°|48.6°|45°|50°|48.6°
+Who formulated the laws of planetary motion?|Galileo|Newton|Kepler|Copernicus|Kepler
+What is the standard model in particle physics?|Theory of everything|Quantum field theory|String theory|Loop quantum gravity|Quantum field theory
+In calculus, what is the derivative of ln(x)?|1/x|x|ln(x)|e^x|1/x
+What is the boiling point of nitrogen?|-196°C|-186°C|-206°C|-176°C|-196°C
+Which scientist proposed the continental drift theory?|Darwin|Wegener|Lyell|Hutton|Wegener
+What is the Fibonacci sequence rule?|F(n) = F(n-1) + F(n-2)|F(n) = F(n-1) × F(n-2)|F(n) = 2F(n-1)|F(n) = F(n-1)²|F(n) = F(n-1) + F(n-2)
+In computer science, what is the time complexity of quicksort?|O(n)|O(n log n)|O(n²)|O(log n)|O(n log n)
+What is the escape velocity from Earth?|9.8 km/s|11.2 km/s|15.5 km/s|7.9 km/s|11.2 km/s
+Who discovered penicillin?|Pasteur|Fleming|Koch|Lister|Fleming
+What is the Goldbach conjecture about?|Prime numbers|Even numbers|Odd numbers|Perfect numbers|Even numbers
+In physics, what is the fine structure constant approximately?|1/137|1/127|1/147|1/117|1/137
+What is the most electronegative element?|Oxygen|Chlorine|Fluorine|Nitrogen|Fluorine
+Who developed game theory?|Nash|von Neumann|Morgenstern|Smith|von Neumann
+What is the Riemann hypothesis about?|Prime numbers|Complex numbers|Real numbers|Rational numbers|Prime numbers
+In biology, what is apoptosis?|Cell division|Cell death|Cell growth|Cell mutation|Cell death
+What is the Chandrasekhar limit?|1.4 solar masses|2.4 solar masses|0.4 solar masses|3.4 solar masses|1.4 solar masses
+Who proposed the double helix model of DNA?|Franklin|Wilkins|Watson and Crick|Chargaff|Watson and Crick
+What is the Heisenberg uncertainty principle formula?|Δx·Δp ≥ ℏ/2|Δx·Δp ≥ ℏ|Δx·Δp ≥ 2ℏ|Δx·Δp ≥ ℏ/4|Δx·Δp ≥ ℏ/2
+In mathematics, what is Euler's identity?|e^(iπ) + 1 = 0|e^(iπ) - 1 = 0|e^(iπ) = 1|e^(iπ) = -1|e^(iπ) + 1 = 0
+What is the standard temperature and pressure (STP)?|0°C, 1 atm|25°C, 1 atm|0°C, 1 bar|20°C, 1 atm|0°C, 1 atm

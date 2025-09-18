@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Quiz Master - Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.emailjs.com/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+  <!-- 3D Login Interface -->
+  <div id="login-container" class="login-container">
+    <div class="login-cube">
+      <div class="cube-face front">
+        <div class="login-form">
+          <div class="logo-section">
+            <div class="logo-container">
+              <div class="brain-emoji">🧠</div>
+              <div class="sparkles">✨</div>
+            </div>
+            <h1 class="app-title">
+              <span class="quiz-text">Quiz</span>
+              <span class="master-text">Master</span>
+            </h1>
+            <p class="tagline">🚀 Challenge Your Mind • 🏆 Master Knowledge</p>
+          </div>
+          
+          <div class="input-section">
+            <div class="input-group">
+              <div class="input-icon">📧</div>
+              <input type="email" id="email" placeholder="✉️ Enter your email address" required>
+              <div class="input-glow"></div>
+            </div>
+            <div class="input-group">
+              <div class="input-icon">👤</div>
+              <input type="text" id="username" placeholder="🎯 Choose your username" required>
+              <div class="input-glow"></div>
+            </div>
+            <div class="input-group">
+              <div class="input-icon">🔒</div>
+              <input type="password" id="password" placeholder="🛡️ Create secure password" required>
+              <div class="input-glow"></div>
+            </div>
+            <div class="input-group">
+              <div class="input-icon">🔑</div>
+              <input type="text" id="confirmCode" placeholder="🎫 Enter verification code" required>
+              <div class="input-glow"></div>
+            </div>
+          </div>
+          
+          <div class="button-section">
+            <button onclick="sendConfirmationCode(this)" class="btn-secondary email-btn">
+              <span class="btn-icon">📨</span>
+              <span class="btn-text">Send Magic Code</span>
+              <div class="btn-shine"></div>
+            </button>
+            <button onclick="generateTestCode()" class="btn-secondary test-btn">
+              <span class="btn-icon">⚡</span>
+              <span class="btn-text">Quick Test Code</span>
+              <div class="btn-shine"></div>
+            </button>
+            <button onclick="login()" class="btn-primary login-btn">
+              <span class="btn-icon">🚀</span>
+              <span class="btn-text">Launch Quiz</span>
+              <div class="btn-shine"></div>
+            </button>
+          </div>
+          
+          <div class="status-section">
+            <div class="server-status" id="server-status">
+              <div class="status-indicator">
+                <i class="fas fa-circle" id="status-icon"></i>
+                <div class="pulse-ring"></div>
+              </div>
+              <span id="status-text">🔍 Checking server...</span>
+            </div>
+            <div class="support-link">
+              <a href="mailto:sinugahlot0@gmail.com" target="_blank">
+                💬 Need Help? Contact Support
+              </a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="particles"></div>
+  </div>
+
+  <!-- Quiz Application (Hidden initially) -->
+  <div id="quiz-app" class="quiz-app hidden">
+    <div class="quiz-container">
+      <div class="quiz-header">
+        <div class="header-left">
+          <div class="app-logo">
+            <span class="logo-emoji">🧠</span>
+            <span class="logo-sparkle">✨</span>
+          </div>
+          <h1 class="quiz-title">
+            <span class="quiz-emoji">🏆</span>
+            Quiz Master Pro
+            <span class="pro-badge">PRO</span>
+          </h1>
+        </div>
+        <div class="user-info">
+          <div class="welcome-text">
+            <span class="wave-emoji">👋</span>
+            Welcome, <span id="logged-user" class="username"></span>
+            <span class="star-emoji">⭐</span>
+          </div>
+          <button onclick="logout()" class="logout-btn">
+            <span class="logout-icon">🚪</span>
+            <span>Logout</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="start-screen">
+        <div class="difficulty-selector">
+          <div class="selector-header">
+            <h2 class="challenge-title">
+              <span class="title-emoji">🎯</span>
+              Choose Your Challenge
+              <span class="fire-emoji">🔥</span>
+            </h2>
+            <p class="challenge-subtitle">💪 Test your knowledge across different difficulty levels</p>
+          </div>
+          
+          <div class="difficulty-cards">
+            <div class="difficulty-card easy" onclick="selectDifficulty('easy')">
+              <div class="card-header">
+                <div class="card-emoji">🌱</div>
+                <div class="card-sparkle">✨</div>
+              </div>
+              <h3 class="card-title">Easy Peasy</h3>
+              <div class="card-stats">
+                <p class="question-count">📚 50+ Questions</p>
+                <p class="level-text">🎯 Beginner Friendly</p>
+              </div>
+              <div class="card-footer">
+                <span class="difficulty-emoji">😊</span>
+                <span class="start-text">Perfect Start!</span>
+              </div>
+            </div>
+            
+            <div class="difficulty-card medium" onclick="selectDifficulty('medium')">
+              <div class="card-header">
+                <div class="card-emoji">🔥</div>
+                <div class="card-sparkle">⚡</div>
+              </div>
+              <h3 class="card-title">Medium Heat</h3>
+              <div class="card-stats">
+                <p class="question-count">📖 50+ Questions</p>
+                <p class="level-text">🎪 Intermediate Level</p>
+              </div>
+              <div class="card-footer">
+                <span class="difficulty-emoji">😎</span>
+                <span class="start-text">Bring It On!</span>
+              </div>
+            </div>
+            
+            <div class="difficulty-card hard" onclick="selectDifficulty('hard')">
+              <div class="card-header">
+                <div class="card-emoji">⚡</div>
+                <div class="card-sparkle">💥</div>
+              </div>
+              <h3 class="card-title">Expert Mode</h3>
+              <div class="card-stats">
+                <p class="question-count">🧠 50+ Questions</p>
+                <p class="level-text">🏆 Master Level</p>
+              </div>
+              <div class="card-footer">
+                <span class="difficulty-emoji">🤯</span>
+                <span class="start-text">Ultimate Test!</span>
+              </div>
+            </div>
+          </div>
+          
+          <button id="start-quiz-btn" onclick="startQuiz()" class="btn-primary start-quiz-btn hidden">
+            <span class="btn-icon">🚀</span>
+            <span class="btn-text">Launch Quiz Adventure</span>
+            <span class="btn-subtext">(10 Random Questions)</span>
+            <div class="btn-shine"></div>
+          </button>
+        </div>
+      </div>
+
+      <div id="quiz-screen" class="hidden">
+        <div class="quiz-progress">
+          <div class="progress-header">
+            <div class="progress-info">
+              <span class="question-counter">
+                <span class="counter-emoji">📝</span>
+                Question <span id="current-q" class="current-number">1</span> of <span class="total-number">10</span>
+              </span>
+              <div class="timer-container">
+                <span class="timer-emoji">⏰</span>
+                <span class="timer-text">Time: <span id="timer" class="timer-value">300</span>s</span>
+                <div class="timer-pulse"></div>
+              </div>
+            </div>
+          </div>
+          <div class="progress-bar-container">
+            <div class="progress-bar">
+              <div class="progress-fill" id="progress-fill"></div>
+              <div class="progress-glow"></div>
+            </div>
+            <div class="progress-percentage" id="progress-percentage">10%</div>
+          </div>
+        </div>
+        
+        <div class="question-container">
+          <div class="question-header">
+            <span class="question-emoji">🤔</span>
+            <span class="question-label">Your Challenge:</span>
+          </div>
+          <div id="question" class="question-text"></div>
+          <div id="options" class="options-container"></div>
+          <div id="feedback" class="feedback-container"></div>
+        </div>
+        
+        <div class="quiz-controls">
+          <button onclick="nextQuestion()" id="next-btn" class="btn-primary next-btn hidden">
+            <span class="btn-icon">➡️</span>
+            <span class="btn-text">Next Challenge</span>
+            <div class="btn-shine"></div>
+          </button>
+        </div>
+      </div>
+
+      <div id="result-screen" class="hidden">
+        <div class="result-container">
+          <div class="result-header">
+            <div class="celebration-emojis">
+              <span class="celebration-emoji">🎉</span>
+              <span class="celebration-emoji">🏆</span>
+              <span class="celebration-emoji">✨</span>
+            </div>
+            <h2 class="completion-title">
+              <span class="title-emoji">🎊</span>
+              Quiz Completed!
+              <span class="party-emoji">🥳</span>
+            </h2>
+            <p class="completion-subtitle">🌟 Amazing work! Here are your results 🌟</p>
+          </div>
+          
+          <div class="score-display">
+            <div class="score-circle-container">
+              <div class="score-circle">
+                <div class="score-inner">
+                  <span id="score-percentage" class="percentage-text">0%</span>
+                  <div class="score-emoji" id="score-emoji">🎯</div>
+                </div>
+                <div class="circle-glow"></div>
+              </div>
+            </div>
+            <div class="score-details">
+              <p class="score-text">
+                <span class="score-emoji">📊</span>
+                Your Score: <span id="score" class="score-value"></span>
+              </p>
+              <p id="performance-level" class="performance-text"></p>
+              <p id="message" class="message-text"></p>
+            </div>
+          </div>
+          
+          <div class="timestamp-container">
+            <span class="timestamp-emoji">📅</span>
+            <span class="timestamp-text">Completed on: <span id="completion-time"></span></span>
+          </div>
+
+          <div id="feedback-form" class="feedback-section">
+            <div class="feedback-header">
+              <h3 class="feedback-title">
+                <span class="feedback-emoji">💭</span>
+                Share Your Experience
+                <span class="heart-emoji">💖</span>
+              </h3>
+              <p class="feedback-subtitle">🌟 Help us make Quiz Master even better!</p>
+            </div>
+            
+            <div class="rating-container">
+              <p class="rating-label">⭐ Rate your experience:</p>
+              <div class="rating-stars">
+                <span onclick="setRating(1)" class="star" data-rating="1">⭐</span>
+                <span onclick="setRating(2)" class="star" data-rating="2">⭐</span>
+                <span onclick="setRating(3)" class="star" data-rating="3">⭐</span>
+                <span onclick="setRating(4)" class="star" data-rating="4">⭐</span>
+                <span onclick="setRating(5)" class="star" data-rating="5">⭐</span>
+              </div>
+            </div>
+            
+            <div class="feedback-input">
+              <textarea id="feedbackText" placeholder="💬 Tell us what you loved, what could be better, or any suggestions..."></textarea>
+            </div>
+            
+            <button onclick="submitFeedback(this)" class="btn-primary feedback-btn">
+              <span class="btn-icon">📨</span>
+              <span class="btn-text">Send Feedback</span>
+              <div class="btn-shine"></div>
+            </button>
+          </div>
+
+          <div class="action-buttons">
+            <button onclick="restartQuiz()" class="btn-secondary restart-btn">
+              <span class="btn-icon">🔄</span>
+              <span class="btn-text">Take Another Quiz</span>
+              <div class="btn-shine"></div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

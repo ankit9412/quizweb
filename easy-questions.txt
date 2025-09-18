@@ -1,0 +1,51 @@
+What is 2 + 2?|3|4|5|6|4
+What color is the sky?|Blue|Green|Red|Yellow|Blue
+How many days are in a week?|5|6|7|8|7
+What is the capital of the United States?|New York|Washington D.C.|Los Angeles|Chicago|Washington D.C.
+Which animal is known as man's best friend?|Cat|Dog|Bird|Fish|Dog
+What is 10 - 5?|3|4|5|6|5
+How many fingers do humans typically have?|8|10|12|14|10
+What do bees make?|Milk|Honey|Butter|Cheese|Honey
+What is the opposite of hot?|Warm|Cool|Cold|Freezing|Cold
+Which season comes after winter?|Summer|Fall|Spring|Autumn|Spring
+What is 3 × 3?|6|9|12|15|9
+What do we use to write?|Spoon|Pen|Fork|Knife|Pen
+How many wheels does a bicycle have?|1|2|3|4|2
+What is the first letter of the alphabet?|A|B|C|D|A
+Which fruit is red and round?|Banana|Apple|Orange|Grape|Apple
+What is 15 ÷ 3?|3|4|5|6|5
+How many hours are in a day?|12|24|36|48|24
+What do fish live in?|Air|Water|Sand|Trees|Water
+What is the color of grass?|Blue|Red|Green|Yellow|Green
+How many months are in a year?|10|11|12|13|12
+What is 4 + 4?|6|7|8|9|8
+Which animal says 'moo'?|Dog|Cat|Cow|Pig|Cow
+What is the shape of a ball?|Square|Triangle|Circle|Rectangle|Circle
+How many sides does a triangle have?|2|3|4|5|3
+What is 20 - 10?|5|10|15|20|10
+Which meal do we eat in the morning?|Lunch|Dinner|Breakfast|Snack|Breakfast
+What is the color of the sun?|Blue|Green|Yellow|Purple|Yellow
+How many legs does a spider have?|6|8|10|12|8
+What is 6 × 2?|10|12|14|16|12
+Which direction is opposite to up?|Left|Right|Down|Forward|Down
+What is 100 ÷ 10?|5|10|15|20|10
+How many eyes do humans have?|1|2|3|4|2
+What is the largest ocean?|Atlantic|Indian|Arctic|Pacific|Pacific
+Which planet do we live on?|Mars|Venus|Earth|Jupiter|Earth
+What is 7 + 8?|14|15|16|17|15
+How many cents are in a dollar?|50|75|100|125|100
+What do we call frozen water?|Steam|Ice|Snow|Rain|Ice
+Which animal is the king of the jungle?|Tiger|Lion|Elephant|Bear|Lion
+What is 9 - 4?|3|4|5|6|5
+How many minutes are in an hour?|30|45|60|90|60
+What is the opposite of big?|Large|Huge|Small|Tiny|Small
+Which bird cannot fly?|Eagle|Sparrow|Penguin|Robin|Penguin
+What is 5 × 4?|15|20|25|30|20
+How many sides does a square have?|3|4|5|6|4
+What is the first month of the year?|December|January|February|March|January
+Which sense do we use to see?|Hearing|Smell|Sight|Touch|Sight
+What is 18 ÷ 2?|6|7|8|9|9
+How many legs does a cat have?|2|4|6|8|4
+What is the color of snow?|Black|White|Gray|Blue|White
+Which fruit is yellow and curved?|Apple|Orange|Banana|Grape|Banana
+What is 12 + 8?|18|19|20|21|20
