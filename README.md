@@ -141,7 +141,9 @@ quiz-master/
 - **Issues**: Check server status first
 - **Testing**: Use `test-email.html` for diagnostics
 
----
+---![Uploading Screenshot (110).png…]()
+
 
 
 **Ready to quiz? Start the server and open index.html!** 🎉
+
