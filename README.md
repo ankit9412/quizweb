@@ -105,7 +105,7 @@ The login screen shows server status:
 - Check browser console for errors
 - Fallback questions will load automatically
 
-- ![Uploading Screenshot (110).png…]()
+- <img width="1920" height="1080" alt="Screenshot (110)" src="https://github.com/user-attachments/assets/4b5b35fd-4a5a-4e54-a8d1-8e2ecbb589ef" />
 
 
 ## 📁 **File Structure**
@@ -144,6 +144,6 @@ quiz-master/
 ---![Uploading Screenshot (110).png…]()
 
 
-
 **Ready to quiz? Start the server and open index.html!** 🎉
+
 
